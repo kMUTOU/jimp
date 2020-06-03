@@ -12,6 +12,7 @@ import dither from '@jimp/plugin-dither';
 import fisheye from '@jimp/plugin-fisheye';
 import flip from '@jimp/plugin-flip';
 import gaussian from '@jimp/plugin-gaussian';
+import halftone from '@jimp/halftone';
 import invert from '@jimp/plugin-invert';
 import mask from '@jimp/plugin-mask';
 import normalize from '@jimp/plugin-normalize';
@@ -35,6 +36,7 @@ const plugins = [
   fisheye,
   flip,
   gaussian,
+  halftone,
   invert,
   mask,
   normalize,

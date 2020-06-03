@@ -30,6 +30,7 @@
     "@jimp/plugin-fisheye": "link:../plugin-fisheye",
     "@jimp/plugin-flip": "link:../plugin-flip",
     "@jimp/plugin-gaussian": "link:../plugin-gaussian",
+    "@jimp/plugin-halftone": "link:../plugin-halftone",
     "@jimp/plugin-invert": "link:../plugin-invert",
     "@jimp/plugin-mask": "link:../plugin-mask",
     "@jimp/plugin-normalize": "link:../plugin-normalize",

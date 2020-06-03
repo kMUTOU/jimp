@@ -10,6 +10,7 @@ import dither from '@jimp/plugin-dither';
 import fisheye from '@jimp/plugin-fisheye';
 import flip from '@jimp/plugin-flip';
 import gaussian from '@jimp/plugin-gaussian';
+import halftone from '@jimp/plugin-halftone';
 import invert from '@jimp/plugin-invert';
 import mask from '@jimp/plugin-mask';
 import normalize from '@jimp/plugin-normalize';
@@ -32,6 +33,7 @@ type DitherRet = ReturnType<typeof dither>;
 type FlipRet = ReturnType<typeof flip>;
 type FisheyeRet = ReturnType<typeof fisheye>;
 type GaussianRet = ReturnType<typeof gaussian>;
+type HalftoneRet = ReturnType<typeof halftone>;
 type InvertRet = ReturnType<typeof invert>;
 type MaskRet = ReturnType<typeof mask>;
 type NormalizeRet = ReturnType<typeof normalize>;
@@ -63,6 +65,7 @@ type Plugins =
   | FlipRet
   | FisheyeRet
   | GaussianRet
+  | HalftoneRet
   | InvertRet
   | MaskRet
   | NormalizeRet
